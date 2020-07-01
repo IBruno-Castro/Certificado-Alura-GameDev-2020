@@ -1,1 +1,2 @@
 # Running-Magic---Projeto-GameDev-Alura
+    Esse é um projeto feito durante a Imersão GameDev JavaScript, uma semana proporcionada pela Alura para aprendermos mais sobre a linguagem e também sobre o ramo dos geme developers
