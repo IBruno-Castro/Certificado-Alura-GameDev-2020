@@ -7,6 +7,7 @@ let imagemInimigoVoador
 let imagemGameOver;
 let imagemHeart;
 let somDoPulo;
+let somDeDano;
 let fonteTelaInicial;
 
 let pontuacao;

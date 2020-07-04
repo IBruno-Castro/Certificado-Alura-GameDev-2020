@@ -58,6 +58,7 @@ class Jogo {
     if (personagem.estaColidindo(inimigo)) {
       console.log('colidiu')
       vida.perdeVida()
+      somDeDano.play()
       personagem.ficaInvencivel()
       if(vida.vidas === 0){
         image(imagemGameOver, width / 2 - 200, height / 2 - 100)
