@@ -8,6 +8,7 @@ let imagemGameOver;
 let imagemHeart;
 let somDoPulo;
 let somDeDano;
+let somDe1Up;
 let fonteTelaInicial;
 
 let pontuacao;

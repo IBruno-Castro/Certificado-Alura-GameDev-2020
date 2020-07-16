@@ -65,5 +65,13 @@ class Jogo {
         noLoop()
       }
     }
+    
+    if(personagem.estaCurando(coracaoextra)) {
+      console.log('curou')
+      vida.ganhaVida()
+      personagem.ficaInvencivel()
+      somDe1Up.play()
+    }
+  
   }
 }

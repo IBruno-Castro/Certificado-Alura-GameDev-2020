@@ -56,5 +56,24 @@ class Personagem extends Animacao{
     
     return colisao;
   }
+  estaCurando(coracaoextra){
+    if(this.invencivel){
+      return false
+    }
+    
+    const precisao = 0.7
+      const cura = collideRectRect(
+      this.x, 
+      this.y, 
+      this.largura * precisao, 
+      this.altura * precisao,
+      coracaoextra.x,
+      coracaoextra.y,
+      coracaoextra.largura * precisao,
+      coracaoextra.altura * precisao
+    );
+    
+    return cura
+  }
 
 }

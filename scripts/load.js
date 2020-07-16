@@ -9,7 +9,8 @@ function preload() {
   imagemInimigoVoador = loadImage('imagens/inimigos/gotinha-voadora.png')
   somDoJogo = loadSound('sons/trilha_jogo.mp3');
   somDoPulo = loadSound('sons/somPulo.mp3');
-  somDeDano = loadSound('sons/Som de morte do Roblox.mp3');
+  somDeDano = loadSound('sons/somDeDano.mp3');
+  somDe1Up = loadSound('sons/somDe1Up')
   fonteTelaInicial = loadFont('imagens/assets/fonteTelaInicial.otf');
   fita = loadJSON('fita/fita.json');
 }
